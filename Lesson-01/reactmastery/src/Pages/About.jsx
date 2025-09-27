@@ -1,19 +1,19 @@
 import React, { Component } from "react";
 
 class About extends Component {
-  state = {
-    name: "Ahsanul Mostakin",
-    age: 25,
-    Prof: "Content Creator",
-  };
+  constructor(props) {
+    super(props);
+    this.state = {
+      name: "Ahsanul Mostakin",
+      age: 25,
+    };
+  }
+
   render() {
     return (
       <>
         <h1>
-          {"My name is " +
-            this.state.name +
-            ", My profession is " +
-            this.state.Prof}
+          My name is {this.state.name} my age is {this.state.age}
         </h1>
       </>
     );
