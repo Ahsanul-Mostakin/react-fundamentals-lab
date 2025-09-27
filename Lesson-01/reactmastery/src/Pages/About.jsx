@@ -6,15 +6,24 @@ class About extends Component {
     this.state = {
       name: "Ahsanul Mostakin",
       age: 25,
+      Prof: "Content Creating",
     };
+
+    // bind method here
+    this.ChangeMind = this.ChangeValue.bind(this);
+  }
+
+  ChangeValue() {
+    this.setState({
+      Prof: "Freelancing",
+    });
   }
 
   render() {
     return (
       <>
-        <h1>
-          My name is {this.state.name} my age is {this.state.age}
-        </h1>
+        <h1>My Profession is {this.state.Prof}</h1>
+        <button onClick={this.ChangeMind}>Change Value</button>
       </>
     );
   }
