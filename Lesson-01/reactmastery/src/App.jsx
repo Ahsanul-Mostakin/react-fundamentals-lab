@@ -6,6 +6,7 @@ import Contact from "./Pages/Contact";
 import Feedback from "./Pages/Feedback";
 import Fragments from "./Pages/Fragments";
 import Clipboard from "./Pages/Clipboard";
+import Focus from "./Pages/Focus";
 function App() {
   return (
     <>
@@ -15,6 +16,7 @@ function App() {
       <Feedback />
       <Fragments />
       <Clipboard />
+      <Focus />
     </>
   );
 }
