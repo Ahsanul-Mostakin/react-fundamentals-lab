@@ -10,10 +10,11 @@ import Focus from "./Pages/Focus";
 import Keyboard from "./Pages/Keyboard";
 import Fider from "./Pages/Fider";
 import WelcomeAdmin from "./Pages/WelcomeAdmin";
+import Style from "./Pages/Style";
 function App() {
   return (
     <>
-      <Home />
+      {/* <Home />
       <About />
       <Contact />
       <Feedback />
@@ -22,7 +23,8 @@ function App() {
       <Focus />
       <Keyboard />
       <Fider />
-      <WelcomeAdmin />
+      <WelcomeAdmin /> */}
+      <Style />
     </>
   );
 }
