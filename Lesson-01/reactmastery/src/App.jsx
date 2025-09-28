@@ -8,6 +8,8 @@ import Fragments from "./Pages/Fragments";
 import Clipboard from "./Pages/Clipboard";
 import Focus from "./Pages/Focus";
 import Keyboard from "./Pages/Keyboard";
+import Fider from "./Pages/Fider";
+import WelcomeAdmin from "./Pages/WelcomeAdmin";
 function App() {
   return (
     <>
@@ -19,6 +21,8 @@ function App() {
       <Clipboard />
       <Focus />
       <Keyboard />
+      <Fider />
+      <WelcomeAdmin />
     </>
   );
 }
