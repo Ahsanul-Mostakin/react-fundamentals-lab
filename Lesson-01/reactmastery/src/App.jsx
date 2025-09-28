@@ -7,6 +7,7 @@ import Feedback from "./Pages/Feedback";
 import Fragments from "./Pages/Fragments";
 import Clipboard from "./Pages/Clipboard";
 import Focus from "./Pages/Focus";
+import Keyboard from "./Pages/Keyboard";
 function App() {
   return (
     <>
@@ -17,6 +18,7 @@ function App() {
       <Fragments />
       <Clipboard />
       <Focus />
+      <Keyboard />
     </>
   );
 }
