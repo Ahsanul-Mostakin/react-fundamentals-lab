@@ -11,11 +11,14 @@ import Keyboard from "./Pages/Keyboard";
 import Fider from "./Pages/Fider";
 import WelcomeAdmin from "./Pages/WelcomeAdmin";
 import Style from "./Pages/Style";
+import NewComponents from "./Pages/NewComponents";
 function App() {
   return (
     <>
-      {/* <Home />
+      <Home />
       <About />
+      <NewComponents />
+      {/* 
       <Contact />
       <Feedback />
       <Fragments />
@@ -23,8 +26,9 @@ function App() {
       <Focus />
       <Keyboard />
       <Fider />
-      <WelcomeAdmin /> */}
-      <Style />
+      <WelcomeAdmin />
+      <Style /> */}
+      <p>This is p tag</p>
     </>
   );
 }

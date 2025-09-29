@@ -10,6 +10,7 @@ function Style() {
     <div>
       <h1 style={ElementOne}>My first style components</h1>
       <h2 className="programmer">Mostakin </h2>
+      <p>This is p tag 2</p>
     </div>
   );
 }
