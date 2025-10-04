@@ -1,0 +1,41 @@
+.error {
+  background-color: tomato;
+  color: #fff;
+  text-align: center;
+  font-style: italic;
+  margin-top: 10px;
+}
+
+p {
+  color: red;
+  background-color: black;
+  text-align: center;
+  padding: 10px;
+  margin-top: 10px;
+}
+
+.Btn {
+  background-color: tomato;
+  color: white;
+  font-weight: 700;
+  padding: 15px;
+  border: none;
+  margin: 15px;
+}
+
+.Btn1 {
+  background-color: yellowgreen;
+  color: white;
+  font-weight: 700;
+  padding: 15px;
+  border: none;
+  margin: 15px;
+}
+/* button {
+  background-color: red;
+  color: #fff;
+  font-weight: 700;
+  padding: 15px;
+  border: none;
+  margin: 15px;
+} */
