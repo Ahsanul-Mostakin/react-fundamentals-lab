@@ -6,11 +6,10 @@ import Title from "./Title.jsx";
 import Product from "./Products.jsx";
 
 function App() {
-  let options = ["hii-tech", "fast", "readable"];
   return (
     <>
-      <Product title="laptop" price={3000} features={options} />
-      <Product title="phone" price={1000} />
+      <Product title="laptop" price={30000} />
+      <Product title="phone" price={10000} />
       <Product title="watch" price={5000} />
     </>
   );
