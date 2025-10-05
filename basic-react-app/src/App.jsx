@@ -4,13 +4,14 @@ import viteLogo from "/vite.svg";
 import "./App.css";
 import Title from "./Title.jsx";
 import Product from "./Products.jsx";
+import User from "./User.jsx";
 
 function App() {
   return (
     <>
-      <Product title="laptop" price={30000} />
-      <Product title="phone" price={10000} />
-      <Product title="watch" price={5000} />
+      <User username="Ahsanul Mostakin" textcolor="red" />
+      <User username="Ahsanul Mostaking" textcolor="green" />
+      <User username="Ahsanul Mostakinggg" textcolor="blue" />
     </>
   );
 }
