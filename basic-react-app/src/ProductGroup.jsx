@@ -12,10 +12,10 @@ export default function ProductGroup() {
 
   return (
     <div style={styles}>
-      <Product title="Samsung Galaxy" desc="Better than iphone" />
-      <Product />
-      <Product />
-      <Product />
+      <Product title="Samsung Galaxy" desc="Better than iphone" idx={0} />
+      <Product title="Samsung Galaxy" desc="Better than iphone" idx={1} />
+      <Product title="Samsung Galaxy" desc="Better than iphone" idx={2} />
+      <Product title="Samsung Galaxy" desc="Better than iphone" idx={3} />
     </div>
   );
 }
