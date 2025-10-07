@@ -1,16 +1,23 @@
 import { useState } from "react";
 import "./Todo.css";
+import { v4 as uuidv4 } from "uuid";
 
 export default function Todo() {
-  let [todos, setTodos] = useState(["sample-task"]);
+  let [todos, setTodos] = useState([]);
   let [newTodo, setNewTodo] = useState("");
 
   function addNewTask() {
-    setTodos([...todos, newTodo]);
+    setTodos([...todos, { task: newTodo, id: uuidv4() }]);
     setNewTodo("");
   }
+
   function handleEvent(event) {
     setNewTodo(event.target.value);
+  }
+
+  function deleteBtn(id) {
+    // ✅ fixed function name
+    setTodos(todos.filter((todo) => todo.id !== id));
   }
 
   return (
@@ -26,8 +33,13 @@ export default function Todo() {
         </div>
       </div>
       <ul>
-        {todos.map((todo, index) => (
-          <li key={index}>{todo}</li>
+        {todos.map((todo) => (
+          <li key={todo.id}>
+            <span>{todo.task}</span>
+            <button className="deletebtn" onClick={() => deleteBtn(todo.id)}>
+              Delete
+            </button>
+          </li>
         ))}
       </ul>
     </>
