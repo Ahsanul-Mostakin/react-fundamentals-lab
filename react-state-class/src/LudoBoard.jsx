@@ -1,64 +1,72 @@
 import { useState } from "react";
 
 export default function LudoBoard() {
-  let [moves, setMoves] = useState({ blue: 0, yellow: 0, green: 0, red: 0 });
+  let [moves, setMoves] = useState({ blue: 0, yellow: 0, red: 0, green: 0 });
+  let [arr, setArr] = useState(["no moves"]);
 
-  function blueMoves() {
+  function updateBlue() {
     setMoves((prevMoves) => {
       return { ...prevMoves, blue: prevMoves.blue + 1 };
     });
+    setArr((prevArr) => {
+      return [...prevArr, "blue moves"];
+    });
   }
 
-  function yellowMoves() {
+  function updateYellow() {
     setMoves((prevMoves) => {
       return { ...prevMoves, yellow: prevMoves.yellow + 1 };
     });
-  }
-
-  function greenMoves() {
-    setMoves((prevMoves) => {
-      return { ...prevMoves, green: prevMoves.green + 1 };
+    setArr((prevArr) => {
+      return [...prevArr, "yellow moves"];
     });
   }
 
-  function redMoves() {
+  function updateRed() {
     setMoves((prevMoves) => {
       return { ...prevMoves, red: prevMoves.red + 1 };
     });
   }
 
+  function updateGreen() {
+    setMoves((prevMoves) => {
+      return { ...prevMoves, green: prevMoves.green + 1 };
+    });
+  }
+
   return (
     <div>
-      <h1>LUDO BOARD</h1>
+      <h1>Game Begins</h1>
+      <h2>{arr.join(", ")}</h2>
 
-      <h3>Blue Moves = {moves.blue}</h3>
+      <p>Blue Moves={moves.blue}</p>
       <button
         style={{ backgroundColor: "blue", color: "white" }}
-        onClick={blueMoves}
+        onClick={updateBlue}
       >
         +1
       </button>
 
-      <h3>Yellow Moves = {moves.yellow}</h3>
+      <p>Yellow Moves={moves.yellow}</p>
       <button
-        style={{ backgroundColor: "yellow", color: "black" }}
-        onClick={yellowMoves}
+        style={{ backgroundColor: "yellow", color: "white" }}
+        onClick={updateYellow}
       >
         +1
       </button>
 
-      <h3>Green Moves = {moves.green}</h3>
-      <button
-        style={{ backgroundColor: "green", color: "white" }}
-        onClick={greenMoves}
-      >
-        +1
-      </button>
-
-      <h3>Red Moves = {moves.red}</h3>
+      <p>Red Moves={moves.red}</p>
       <button
         style={{ backgroundColor: "red", color: "white" }}
-        onClick={redMoves}
+        onClick={updateRed}
+      >
+        +1
+      </button>
+
+      <p>Green Moves={moves.green}</p>
+      <button
+        style={{ backgroundColor: "green", color: "white" }}
+        onClick={updateGreen}
       >
         +1
       </button>
