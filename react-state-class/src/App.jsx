@@ -9,8 +9,12 @@ import Todo from "./Todo";
 import Lottery from "./Lottery";
 import TicketNum from "./TicketNum";
 import Ticket from "./Ticket";
-
+import { genTicket, sum } from "../helper";
+import MyForm from "./FORMS/MyForm";
 function App() {
+  let winCondition = (ticket) => {
+    return ticket[0] === 0;
+  };
   return (
     <>
       {/* <Counter /> */}
@@ -18,8 +22,8 @@ function App() {
       {/* <LudoBoard /> */}
       {/* <Todo /> */}
       {/* <Lottery /> */}
-      <Lottery n={3} winningSum={15} />
-      <Lottery n={5} winningSum={18} />
+      {/* <Lottery n={3} winCondition={winCondition} /> */}
+      <MyForm />
     </>
   );
 }
