@@ -8,5 +8,13 @@ html,
 body {
   height: 100%;
   width: 100%;
-  background-color: red;
+  background-color: rgba(237, 180, 100, 0.992);
+  color: black;
+}
+
+.ticket {
+  height: 40px;
+  width: 250px;
+  border: 2px solid black;
+  text-align: center;
 }
