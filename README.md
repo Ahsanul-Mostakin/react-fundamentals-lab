@@ -1,15 +1,15 @@
-# ⚛️ React Projects
+# ⚛️ React Practice Projects
 
-A collection of React projects showcasing interactive components, state management, and practical frontend skills.
+A collection of React mini-projects built to practice and demonstrate skills in interactive UI, state management, and React hooks.
 
 ---
 
-## Projects Highlights
+## Highlights
 
-- Interactive UI components with dynamic state  
-- Task management apps and mini-games  
-- Hands-on experience with React hooks and event handling  
-- Focused on building clean, reusable, and maintainable code  
+- Built interactive components and dynamic UIs  
+- Managed state effectively using `useState` and other hooks  
+- Developed task management apps and small games  
+- Focused on clean, reusable, and maintainable code  
 
 ---
 
@@ -33,10 +33,3 @@ A collection of React projects showcasing interactive components, state manageme
 ## Tech Stack
 
 React.js | JavaScript (ES6+) | HTML | CSS
-
----
-
-## Author
-
-**Ahsanul Mostakin**  
-Full-Stack Developer | MERN Stack Specialist  
