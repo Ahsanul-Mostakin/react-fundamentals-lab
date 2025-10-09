@@ -1,16 +1,12 @@
 # ⚛️ React Projects
 
-A collection of React projects showcasing practical frontend skills, interactive components, and modern React practices.
+A collection of React projects demonstrating practical frontend skills, interactive components, state management, and modern React practices. Continuously expanding to include advanced topics.
 
 ---
 
-## Highlights
+## Tech Stack
 
-- Interactive UI components with dynamic state  
-- Task management apps and mini-games  
-- Hands-on experience with React hooks and event handling  
-- Clean, reusable, and maintainable code  
-- Continuously expanding with advanced React topics  
+React.js | JavaScript (ES6+) | HTML | CSS
 
 ---
 
@@ -29,14 +25,3 @@ A collection of React projects showcasing practical frontend skills, interactive
   </tr>
 </table>
 
----
-
-## Tech Stack
-
-React.js | JavaScript (ES6+) | HTML | CSS
-
----
-
-## Description
-
-A growing collection of React projects demonstrating interactive UIs, state management, and modern React practices, from beginner to advanced levels. 
