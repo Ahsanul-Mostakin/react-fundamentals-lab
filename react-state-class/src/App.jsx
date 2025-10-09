@@ -11,6 +11,8 @@ import TicketNum from "./TicketNum";
 import Ticket from "./Ticket";
 import { genTicket, sum } from "../helper";
 import MyForm from "./FORMS/MyForm";
+import MultipleForm from "./FORMS/MultipleForm";
+import CommentForm from "./FORMS/CommentForm";
 function App() {
   let winCondition = (ticket) => {
     return ticket[0] === 0;
@@ -23,7 +25,8 @@ function App() {
       {/* <Todo /> */}
       {/* <Lottery /> */}
       {/* <Lottery n={3} winCondition={winCondition} /> */}
-      <MyForm />
+      {/* <MultipleForm /> */}
+      <CommentForm />
     </>
   );
 }
