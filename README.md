@@ -1,4 +1,4 @@
-# ⚛️ React Projects
+# ⚛️ React 
 
 A collection of React projects demonstrating practical frontend skills, interactive components, state management, and modern React practices. Continuously expanding to include advanced topics.
 
