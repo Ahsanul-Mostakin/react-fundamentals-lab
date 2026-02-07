@@ -1,6 +1,14 @@
-# ⚛️ React 
+# ⚛️ React
 
-A collection of React projects demonstrating practical frontend skills, interactive components, state management, and modern React practices. Continuously expanding to include advanced topics.
+This repository contains my early React practice projects and experiments.
+It focuses on building a strong foundation in core React concepts such as
+components, state, props, and common UI patterns.
+
+🔔 Note:
+For my main, structured, and production-oriented React journey
+covering React → MERN → AI through real-world, project-based work
+(actively maintained),
+please visit 👉 react-mastery-journey.
 
 ---
 
@@ -24,4 +32,3 @@ React.js | JavaScript (ES6+) | HTML | CSS
     <td></td>
   </tr>
 </table>
-
